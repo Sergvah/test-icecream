@@ -114,11 +114,18 @@ button {
 }
 
 .milk-ingredients:before {
-  background-image: url("../test-icecream/ice-img/milk-ingredients.png");
+  display: block;
+  content: "";
+  margin-bottom: 16px;
+
+  height: 50px;
+
+  background-repeat: no-repeat;
+  background-image: url("../test-icecream/img/milk-ingredients.png");
 }
 .apple-ingredients::before {
-  background-image: url("../icecream-advantages-test/img-icecream/apple-ingredients.png");
+  background-image: url("../test-icecream/img/apple-ingredients.png");
 }
 .heart-ingredients::before {
-  background-image: url("../icecream-advantages-test/img-icecream/heart-ingredients.png");
+  background-image: url("../test-icecream/img/heart-ingredients.png");
 }
