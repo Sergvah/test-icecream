@@ -73,7 +73,7 @@ button {
   background-color: #fff5f6;
   padding-bottom: 60px;
 }
-.ingredients-list {
+.ingredients {
   display: flex;
   flex-wrap: wrap;
 }
@@ -81,7 +81,7 @@ button {
   margin-bottom: 32px;
 }
 
-.ingredients-title {
+.ingredients__title {
   font-family: "Titan One";
   width: 98px;
   height: 56px;
@@ -93,7 +93,7 @@ button {
   margin-bottom: 4px;
   color: #d41443;
 }
-.ingredients-text {
+.ingredients__text {
   font-family: "DM Sans";
   width: 230px;
   font-weight: 700;
@@ -103,7 +103,7 @@ button {
   color: #000000;
 }
 
-.ingredients-item::before {
+.ingredients__item::before {
   display: block;
   content: "";
   margin-bottom: 16px;
@@ -113,7 +113,7 @@ button {
   background-repeat: no-repeat;
 }
 
-.milk-ingredients:before {
+.ingredients__milk:before {
   display: block;
   content: "";
   margin-bottom: 16px;
@@ -123,9 +123,9 @@ button {
   background-repeat: no-repeat;
   background-image: url("../test-icecream/img/milk-ingredients.png");
 }
-.apple-ingredients::before {
+.ingredients__apple::before {
   background-image: url("../test-icecream/img/apple-ingredients.png");
 }
-.heart-ingredients::before {
+.ingredients__heart::before {
   background-image: url("../test-icecream/img/heart-ingredients.png");
 }
