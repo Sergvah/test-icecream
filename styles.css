@@ -77,7 +77,7 @@ button {
   display: flex;
   flex-wrap: wrap;
 }
-.ingredients-item:not(:last-child) {
+.ingredients__item:not(:last-child) {
   margin-bottom: 32px;
 }
 
